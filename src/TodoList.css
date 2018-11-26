@@ -1,0 +1,57 @@
+*{
+    font-family:'Maven Pro';
+}
+
+.todoListMain .header input{
+    width:220px;
+    height:30px;
+    text-align: center;
+    font-size:16px;
+
+}
+
+.todoListMain .header button{
+    width:120px;
+    height:35px;
+    margin-left:10px;
+    background:steelblue;
+    color:#fff;
+    border: 1px solid #333;
+
+}
+
+.todoListMain .header button:hover{
+    background:#003399;
+    cursor: pointer;
+}
+
+
+.todoListMain .theList li {
+    color:#fff;
+    margin-bottom: 10px;
+    list-style: none;
+    padding:10px;
+    border:1px solid #333;
+    background:#333;
+    text-align: center;
+
+    transition:background .2s ease-out
+}
+
+.todoListMain .theList li:hover{
+    background:pink;
+    cursor: pointer;
+}
+
+ul.theList {
+    padding: 0;
+}
+
+form{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
